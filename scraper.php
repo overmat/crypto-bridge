@@ -11,8 +11,7 @@
 // // Find something on the page using css selectors
  $dom = new simple_html_dom();
  $dom->load($html);
- print_r($dom->find("table"));
-//
+ echo $html;
 // // Write out to the sqlite database using scraperwiki library
 // scraperwiki::save_sqlite(array('name'), array('name' => 'susan', 'occupation' => 'software developer'));
 //
